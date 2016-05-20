@@ -1,3 +1,55 @@
+* {
+  max-width: 100%;
+}
 
+h1, h3, h4 {
+  color: #8DAEFF;
+}
+
+.fond a {
+  color: #fff;
+}
+
+.fond {
+  background: url("../image/large.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+.oscuro {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fondo {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.header-pie {
+  background-color: #4E7EB8;
+  opacity: 0.8;
+}
+
+.texto1 {
+  margin-left: 200px;
+}
+
+.boton1 {
+  margin-top: 30px;
+  margin-left: -200px;
+}
+
+.boton1 button {
+  border: 2px solid #fff;
+  background-color: #4E7EB8;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.icons i {
+  border: 2px solid #4E7EB8;
+  border-radius: 100px;
+  padding: 20px;
+}
 
 /*# sourceMappingURL=main.css.map */
