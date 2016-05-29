@@ -18,6 +18,7 @@ h1, h3, h4 {
 
 .oscuro {
   background-color: rgba(0, 0, 0, 0.5);
+  margin: 0px;
 }
 
 .fondo {
@@ -25,31 +26,153 @@ h1, h3, h4 {
   margin-bottom: 150px;
 }
 
-.header-pie {
+.fondo h1 {
+  color: #fff;
+}
+
+.azul {
   background-color: #4E7EB8;
-  opacity: 0.8;
+  margin: 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
-.texto1 {
-  margin-left: 200px;
+.azul .texto {
+  margin-left: 180px;
 }
 
-.boton1 {
-  margin-top: 30px;
-  margin-left: -200px;
+.texto h3 {
+  color: #fff;
+  font-size: 20px;
 }
 
-.boton1 button {
+.texto p {
+  color: #fff;
+}
+
+.azul .boton {
+  margin-top: 25px;
+  margin-left: -180px;
+}
+
+.boton button {
+  color: #fff;
   border: 2px solid #fff;
-  background-color: #4E7EB8;
-  padding: 5px;
+  padding: 5px 10px;
+  font-size: 20px;
   border-radius: 5px;
+  background-color: #4E7EB8;
 }
 
-.icons i {
-  border: 2px solid #4E7EB8;
-  border-radius: 100px;
+.tit {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.iconos i {
+  margin-left: 20px;
+  border-radius: 100%;
+  border: 1px solid #CCCDCF;
   padding: 20px;
+  color: #4E7EB8;
+  -webkit-box-shadow: 0px 9px 53px -6px rgba(171, 142, 171, 0.79);
+  -moz-box-shadow: 0px 9px 53px -6px rgba(171, 142, 171, 0.79);
+  box-shadow: 0px 9px 53px -6px rgba(171, 142, 171, 0.79);
+}
+
+.iconos h3 {
+  margin-top: 50px;
+  color: #6C89A6;
+}
+
+.sep {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sep img {
+  margin-top: -75px;
+}
+
+.flecha {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.pasos {
+  background-image: url("../image/sec-2.jpg");
+  background-size: cover;
+}
+
+.pasos li {
+  margin-top: 89px;
+  margin-bottom: 80px;
+  border-radius: 100%;
+  color: #fff;
+  border: 1px solid #50BDEA;
+  background-color: #50BDEA;
+  padding: 20px;
+}
+
+.pasostext h3 {
+  color: #000;
+}
+
+.pasostext h4 {
+  margin-top: 50px;
+}
+
+.sep {
+  margin-top: -3px;
+}
+
+.sepimg {
+  margin-top: -70px;
+  margin-left: 470px;
+  position: relative;
+}
+
+.color {
+  background-color: #4E7EB8;
+}
+
+.final {
+  margin-top: 60px;
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.final h3, p {
+  color: #fff;
+}
+
+.final button {
+  margin-top: 20px;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #4E7EB8;
+}
+
+.pie {
+  background-color: #2A3541;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.contact {
+  padding-left: 50px;
+}
+
+.contact a {
+  margin-bottom: 15px;
+}
+
+.redes a {
+  padding-right: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
