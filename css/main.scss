@@ -1,6 +1,9 @@
 $color_header:#4E7EB8;
 $color_fond:#fff;
 $color_tit:#8DAEFF;
+$color_of:#6C89A6;
+$color_precio:#50BDEA;
+$color_pie:#2A3541;
 *{
 	max-width:100%;
 }
@@ -13,34 +16,135 @@ h1, h3, h4{
 .fond{
 	background:url("../image/large.jpg");
 	background-size:cover;	
-	color:$color_fond;	
+	color:$color_fond;
 }
 .oscuro{
 	background-color:rgba(0,0,0,0.5);
+	margin:0px;
 }
 .fondo{
 	margin-top:150px;
 	margin-bottom:150px;
 }
-.header-pie{
+.fondo h1{
+	color:$color_fond;
+}
+.azul{
 	background-color:$color_header;
-	opacity:0.8;
+	margin:0px;
+	padding-top:25px;
+	padding-bottom:25px;
 }
-.texto1{
-	margin-left:200px;
+.azul .texto{
+	margin-left:180px;
 }
-.boton1{
-	margin-top:30px;
-	margin-left:-200px;
+.texto h3{
+	color:$color_fond;
+	font-size:20px;
 }
-.boton1 button{
+.texto p{
+	color:$color_fond;
+}
+.azul .boton{
+	margin-top:25px;
+	margin-left:-180px;
+}
+.boton button{
+	color:$color_fond;
 	border:2px solid $color_fond;
-	background-color:$color_header;
-	padding:5px;
+	padding:5px 10px;
+	font-size:20px;
 	border-radius:5px;
+	background-color:$color_header;
 }
-.icons i{
-	border:2px solid $color_header;
-	border-radius:100px;
+.tit{
+	margin-top:70px;
+	margin-bottom:70px;
+}
+.iconos i{
+	margin-left:20px;
+	border-radius:100%;
+	border:1px solid #CCCDCF;
 	padding:20px;
+	color:$color_header;
+	-webkit-box-shadow: 0px 9px 53px -6px rgba(171,142,171,0.79);
+	-moz-box-shadow: 0px 9px 53px -6px rgba(171,142,171,0.79);
+	box-shadow: 0px 9px 53px -6px rgba(171,142,171,0.79);
+}
+.iconos h3{
+	margin-top:50px;
+	color:$color_of;
+}
+.sep{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.sep img{
+	margin-top:-75px;
+}
+.flecha{
+	margin-top:20px;
+	margin-bottom:50px;
+}
+.pasos{
+	background-image:url("../image/sec-2.jpg");
+	background-size:cover;
+}
+.pasos li{
+	margin-top:89px;
+	margin-bottom:80px;
+	border-radius:100%;
+	color:$color_fond;
+	border:1px solid $color_precio;
+	background-color:$color_precio;
+	padding:20px;
+}
+.pasostext h3{
+	color:#000;
+}
+.pasostext h4{
+	margin-top:50px;
+}
+.sep{
+	margin-top:-3px;
+}
+.sepimg{
+	margin-top:-70px;
+	margin-left:470px;
+	position:relative;
+}
+.color{
+	background-color:$color_header;
+}
+.final{
+	margin-top:60px;
+	margin:0px;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.final h3, p{	
+	color:$color_fond;
+}
+.final button{
+	margin-top:20px;
+	color:$color_fond;
+	border:2px solid $color_fond;
+	padding:5px 10px;
+	font-size:20px;
+	border-radius:5px;
+	background-color:$color_header;
+}
+.pie{
+	background-color:$color_pie;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.contact{
+	padding-left:50px;
+}
+.contact a{
+	margin-bottom:15px;
+}
+.redes a{
+	padding-right:20px;
 }
